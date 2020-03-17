@@ -1,0 +1,16 @@
+user: superusuario
+pass: superusuario123
+
+user: juanma
+pass: juanma123
+
+user: carlos
+pass: carlos123
+
+user: jose
+pass: jose123
+
+user: dani
+pass: dani123
+
+*Dani no puede acceder porque su usuario está eliminado.

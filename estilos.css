@@ -1,0 +1,427 @@
+body {
+  background: url(bg.PNG) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*-------------Menu-----------------*/
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.general{
+    box-shadow: 0px 10px 11px -8px rgba(0,0,0,0.56);
+      border-radius: 5px;
+
+}
+
+#menu {
+
+  overflow: hidden;
+  background-color: #333;
+  width: 80%;
+  height: 30px;
+  float: left;
+}
+
+#menu a {
+  /*float: left;*/
+  /*display: block;*/
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.derecha{
+  width: 20%;
+  height: 30px;
+  background-color: red;
+  float: left;
+  text-align: center;
+
+
+}
+
+
+.sesion{
+
+  text-decoration: none;
+  font-size: 17px;
+  color: #f2f2f2;
+  text-align: center;
+
+/*	background-color: #333;
+  box-shadow: 0px 10px 11px -8px rgba(0,0,0,0.56);
+  font-size: 20px;
+  float: left;
+  text-decoration: none;
+  color: white;
+  margin-left: 45%;
+*/
+}
+
+
+
+#menu a:hover {
+  background-color: red;
+  transition: 0.4s;
+}
+
+#menu a.active {
+  background-color: #ff0000;
+  color: black;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*-------------Main-----------------*/
+
+
+#main{
+
+  background-color: #fafafa;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  text-align: center;
+  box-shadow: 9px 10px 11px -8px rgba(0,0,0,0.56);
+  border-radius: 5px;
+
+}
+
+#main a{
+
+	text-decoration: none;
+	color:black;
+
+}
+
+
+#recursos{
+  background-color: #fafafa;
+  margin: 1rem;
+  padding: 10rem;
+  border: 2px solid #ccc;
+  text-align: center;
+  padding: 1.5% 5px 50px 5px;
+  box-shadow: 9px 10px 11px -8px rgba(0,0,0,0.56);
+  border-radius: 5px;
+
+}
+#recursos3{
+  background-color: #fafafa;
+  margin: 1rem;
+  padding: 10rem;
+  border: 2px solid #ccc;
+  text-align: center;
+  padding: 1.5% 5px 400px 5px;
+  box-shadow: 9px 10px 11px -8px rgba(0,0,0,0.56);
+  height: 100px;
+}
+#recursos4{
+  background-color: #fafafa;
+  margin: 1rem;
+  padding: 10rem;
+  border: 2px solid #ccc;
+  text-align: center;
+  padding: 1.5% 5px 400px 5px;
+  box-shadow: 9px 10px 11px -8px rgba(0,0,0,0.56);
+  height: 100px;
+  overflow: scroll;
+}
+.recursos2{
+  border-radius: 5px;
+  background-color: #fafafa;
+  margin: 1rem;
+  padding: 10rem;
+  border: 2px solid #ccc;
+  text-align: center;
+  padding: 1.5% 5px 25px 5px;
+  box-shadow: 9px 10px 11px -8px rgba(0,0,0,0.56);
+  width: 25%;
+  float: left;
+
+}
+
+#recursos a{
+ 	color:black;
+	text-decoration: none;
+	margin-right: 20%;
+	margin-left: 20%;
+
+}
+/*Login*/
+body {
+  margin: 0;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+  margin-top: 2%;
+  width: 100%;
+  height: 100%;
+}
+
+.is{
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  box-shadow: 9px 10px 11px -8px rgba(0,0,0,0.56);
+  width: 35%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+
+  
+}
+
+.form{
+  border-radius: 5px;
+  background-color: #fafafa;
+  width: 35%;
+  height: 200px;
+  border: 2px solid #ccc;
+  box-shadow: 9px 10px 11px -8px rgba(0,0,0,0.56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+.btnenviar{
+  margin-top: 5%;
+  text-decoration:none;
+  font-size: 20px;
+  color:#000000;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:50px;
+  padding-right:50px;
+  background-color: transparent;
+  border: 2px solid #ccc;
+  border-radius: 5px;       
+}
+
+
+/*----------------Index---------------------*/
+
+.titulo{
+  height:85px; 
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  padding:  15px 15px 15px 15px  ;
+
+
+
+}
+
+.subtitulos{
+      text-align: center;
+      width: 25%;   
+}
+
+/*.centrar{
+  width: 100%
+  height:85px;
+}*/
+
+.salas{
+  height:auto; 
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.moviles{
+  height:auto; 
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.portatiles{
+  height:auto; 
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.proyectores{
+  height:auto; 
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+
+.yellow{
+  color: #f5bd05;
+}
+
+.centrartabla{
+  /*text-align: justify-all;*/
+  width: auto;
+}
+
+.ancho{
+    width: 1000px;
+    /*text-align: left;*/
+}
+
+.ancho1{
+    width: 800px;
+    text-align: center;
+    margin-top: -20%;
+    margin-left: 22%;
+    padding: 50px;
+    /*text-align: left;*/
+}
+
+.ancho2{
+    width: 800px;
+    text-align: center;
+    margin-top: -5%;
+    margin-left: 22%;
+    padding: 25px;
+    /*text-align: left;*/
+}
+
+.ancho3{
+    width: 800px;
+    text-align: center;
+    margin-top: -5%;
+    margin-left: 22%;
+    padding: 25px;
+    /*text-align: left;*/
+}
+
+.ancho5{
+    padding: 40px;
+}
+
+.footer{
+  background-color: red;
+  height: 
+}
+
+table{
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  padding:  15px 15px 15px 15px  ;
+}
+
+
+/*-------------------Proyecto2------------------*/
+
+.fechas_reserva{
+margin: 1.5%;
+}
+
+.reservar_boton{
+  margin-bottom: 3%;
+}
+
+.reservar_boton2{
+  margin: 3%;
+}
+
+.nombre_espacio{
+  margin-top: 3.5%;
+}
+
+.esp2{
+  padding: 30px;
+  text-align: center;
+  font-size: 23px;
+  width: 200px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.logos{
+  width: 80%;
+}
+
+.act{
+  padding: 15px;
+}
+
+.regisElim{
+  margin-left: 28%;
+}
+
+.espacioDiv{
+  padding: 1.8%;
+}
+
+.mensaje{
+  color: red;
+}
+
+.mensaje2{
+  color: red;
+}
+
+.nodisponible2{
+  width:150px; 
+}
+
+#main2{
+
+  background-color: #fafafa;
+  border: 2px solid #ccc;
+  text-align: center;
+  box-shadow: 9px 10px 11px -8px rgba(0,0,0,0.56);
+  border-radius: 5px;
+
+}
+
+#main2 a{
+
+  text-decoration: none;
+  color:black;
+
+}
